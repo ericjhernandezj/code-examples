@@ -1,0 +1,26 @@
+/*
+* {
+    outline: solid 1px red;
+}
+*/
+
+header > h1 {
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+
+main > form > label {
+    text-align: left;
+    color: rgb(44, 44, 44);
+}
+
+footer > p {
+    font-size: small;
+    text-align: center;
+    color: red;
+}
