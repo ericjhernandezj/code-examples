@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Form</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Form</h1>
+    </header>
+
+    <main>
+        <form action="action.php" method="post" target="_self">
+            <label for="">Name</label>
+            <input type="text" placeholder="John Doe" autofocus autocomplete="on" required>
+            <br>
+
+            <label for="">Email</label>
+            <input type="email" placeholder="john@company.com" autocomplete="on" required>
+            <br>
+
+            <label for="">Subject</label>
+            <input type="text" placeholder="Write the subject" required>
+            <br>
+
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write the message" required></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>*This form does not send information anywhere. It is for testing only.</p>
+    </footer>
+
+<!--
+    <script>
+        alert("Mobile only.");
+    </script>
+-->
+</body>
+
+</html>
